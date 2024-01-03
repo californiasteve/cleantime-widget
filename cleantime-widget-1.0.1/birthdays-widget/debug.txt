@@ -1,0 +1,4 @@
+<br />
+<b>Deprecated</b>:  Optional parameter $birthdays declared before required parameter $birthdays_settings is implicitly treated as a required parameter in <b>/home/californiasteve/public_html/wp-content/plugins/birthdays-widget/class-birthdays-widget.php</b> on line <b>112</b><br />
+<br />
+<b>Warning</b>:  foreach() argument must be of type array|object, null given in <b>/home/californiasteve/public_html/wp-content/plugins/birthdays-widget/class-birthdays-widget-installer.php</b> on line <b>75</b><br />
