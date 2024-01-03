@@ -211,12 +211,19 @@ function getTabKey(href) {
  * Hide all tabs
  */
 function hideAllTabs() {
-    tabs.each(function(){
-        var href = getTabKey(jQuery(this).attr('href'));
-		console.log(href);
-        jQuery('#' + href).hide();
+    tabs.each(function () {
+        var tab = jQuery(this);
+        var href = getTabKey(tab.attr('href'));
+
+        if (href) {
+            console.log(href);
+            jQuery('#' + href).hide();
+        } else {
+            console.error('Invalid href for tab:', tab);
+        }
     });
 }
+
 
 /**
  * Activate Tab
